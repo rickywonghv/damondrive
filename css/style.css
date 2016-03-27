@@ -1,0 +1,151 @@
+body {
+  @include background(
+    linear-gradient(left, #272838, #2b2d41, #393549, #433545)
+  );
+  font-family: 'Raleway', sans-serif;
+  background: rgb(34, 44, 57);
+}
+
+form#login-form {
+  background: rgb(34, 44, 57);
+  max-width: 35em;
+  margin: 2em auto;
+  overflow: hidden;
+  position: relative;
+  radius:5px;
+  @include border-radius(0.3em);
+  @include box-shadow(0 0 0.2em #000);
+}
+.login-heading {
+  /*background: #f85f64;*/
+  background: rgba(74, 170, 176, 0.57);
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1.5em;
+}
+.loginbtn{
+  background: rgba(74, 170, 176);
+  color: #000;
+  text-align: center;
+  padding-top: 5px;
+  margin-top: 5px;
+  text-transform: uppercase;
+}
+.logininput{
+  padding-top: 5px;
+  margin-top: 5px;
+
+}
+.loginmsg{
+  max-width: 35em;
+  padding-top: 5px;
+  margin-top: 6px;
+}
+.ind{
+  background: #fff;
+  padding-top: 30px;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 3px;
+  background: rgba(33, 37, 34, 0.36);
+  color: #fff;
+}
+.indheader{
+  font-size: 20px;
+  font-family:sans-serif;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.navbar.transparent.navbar-inverse .navbar-inner {
+   border-width: 0px;
+   -webkit-box-shadow: 0px 0px;
+   box-shadow: 0px 0px;
+   background-color: rgba(0,0,0,0.0);
+   background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
+   background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+   background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+}
+.tabheader{
+    font-size: 20px;
+}
+.tabconn{
+  padding: 10px;
+  margin: 10px;
+}
+
+.upload-progress { position:relative; max-width:400px; border: 1px solid #ddd; padding: 1px; border-radius: 3px; }
+.upload-bar { background-color: rgba(0, 142, 76, 0.75); width:0%; height:20px; border-radius: 3px; }
+.upload-percent { position:absolute; display:inline-block; top:3px; left:48%; }
+.estimatename{overflow: hidden; white-space:nowrap; text-overflow:ellipsis;}
+
+#filelist{
+  background: rgba(33, 37, 34, 0.36);
+}
+.fileitem{
+  background: rgba(33, 37, 34, 0.36);
+}
+
+.adduserform{
+  max-width: 60%;
+  margin: auto;
+  padding: auto;
+}
+.addinput{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 400px;
+}
+#adduserresult{
+  padding-top: 3px;
+  margin-top: 3px;
+  max-width: 400px;
+}
+
+#uploadform{
+  margin: auto;
+  padding: auto;
+  max-width:700px;
+}
+
+.chpwdinput{
+  margin: 3px;
+}
+.btnn{
+  margin-top: 3px;
+
+  margin-bottom: 0px;
+}
+.rightnav{
+  margin-bottom: 2px;
+  padding: 0px;
+}
+.dirresult{
+  margin-top: 5px;
+}
+.directories{
+  max-height:30px;
+  height:30px;
+  font-size: 20px;
+}
+
+.directories:hover{
+  background: rgb(111, 107, 121);
+}
+
+.ind{
+  height: 100%;
+  max-height:100%;
+}
+.topmenuitem{
+  color:#fff;
+}
+#showpath{
+  font-size: 20px;
+}
